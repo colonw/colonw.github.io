@@ -3,13 +3,14 @@ title: Rory Little
 description: Rory Little's website and blog
 url: "oneorten.dev"
 
-permalink: /blog/:title/
-
 # User settings
 user:
   name: Rory Little
-  title: Software Engineer
+  title: Graduate Student
   email: rorylit@gmail.com
+
+thing:
+  assetsdir: hello
 
 social:
   twitter: _rorylittle

@@ -1,6 +1,6 @@
 ---
 title: "Crafting Cellular Automata in Rust (Part 1)"
-layout: blog
+layout: post
 image: true
 ---
 
@@ -52,8 +52,10 @@ Some examples include [forest growth and wildfires](https://www.researchgate.net
 
 ### Cave generation
 
+{% capture asset_dir %}{{ 'assets' | relative_url}}{{ page.id }}{% endcapture %}
+
 <video autoplay loop muted class="right">
-  <source src="{{ "assets/blog/automata_rust_1/cave.webm" | relative_url }}" type="video/webm">
+  <source src="{{ asset_dir }}/cave.webm" type="video/webm">
 </video>
 
 A common use case of cellular automata is for level generation in video games, particularly for cave structures, where each "cell" is either a wall tile, or floor tile.
@@ -401,7 +403,7 @@ Since using the shell is easier, we'll just run our program with `trap 'printf "
 And... **behold!**
 
 <video autoplay loop muted class="centered">
-  <source src="{{ "assets/blog/automata_rust_1/final.webm" | relative_url }}" type="video/webm">
+  <source src="{{ asset_dir }}/final.webm" type="video/webm">
 </video>
 
 ## Now what?

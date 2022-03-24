@@ -1,0 +1,8 @@
+---
+layout: page
+---
+
+<h1 class="post-title">{{ page.title }}</h1>
+{% capture asset_dir %}{{ 'assets' | relative_url}}{{ page.id }}{% endcapture %}
+{% if page.image %}<img class="header-image" src="{{ asset_dir }}/header.png">{% endif %}
+{{ content }}

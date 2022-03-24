@@ -1,6 +1,6 @@
 ---
 title: An Introduction
-layout: blog
+layout: post
 ---
 
 COVID-19 has brought the world to a crawl, and as I prepare to graduate, I find myself with a surprising amount of free time on my hands.
