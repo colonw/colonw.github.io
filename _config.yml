@@ -1,7 +1,9 @@
 # Site settings
-title: Rory Little
-description: Rory Little's website and blog
-url: "oneorten.dev"
+title: ':w'
+description: Rory Little's blog
+url: "colonw.dev.dev"
+
+permalink: /posts/:title/
 
 # User settings
 user:
